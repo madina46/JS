@@ -1,0 +1,21 @@
+let nums = [20,33,44,55,67,88];
+
+nums.filter( n=> n%2 === 0)
+.map( n=> n*2 )
+
+.forEach(n => {
+    // console.log(n);
+})
+
+// console.log(result);
+
+
+
+
+
+let result = nums.filter( n=> n%2 === 0)
+.map( n=> n*2 )
+.reduce((a,b) => a + b)
+
+
+console.log(result);
