@@ -5,3 +5,13 @@ data.shift(); //will remove from first
 data.unshift(2); //will add new at first
 data.splice(2,3); //2 is index value and 3 is no of values want to remove 
 console.log(data);
+
+//
+let array = [a,b,c,d] =[1,2,3,4]
+
+let result = a+b+c+d;
+
+console.log(result);
+
+// adding two arrays.
+

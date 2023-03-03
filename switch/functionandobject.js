@@ -12,7 +12,8 @@ let alein = {
 
 alein.laptop();
 
-//for of loop Set in JavaScript:  using "for of" loop we iterate the set and get the output.
+//for of loop Set in JavaScript:  using "for of" loop we iterate the set and
+// get the output.
 
 let data = new Set();
 data.add(3);

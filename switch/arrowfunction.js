@@ -11,5 +11,5 @@ let add = (num1,num2) =>
   num2 = Math.abs(num2)
     return num1 + num2
 }
- let sum = add(-5,-6)
+ let sum = add(5,-6)
  console.log(sum)

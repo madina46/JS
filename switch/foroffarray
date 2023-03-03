@@ -4,6 +4,6 @@ num[0] = 1;
 
 num[99] = 5 ;
 
-for(let key of num){
+for(let key in  num){
     console.log([key]);
 }

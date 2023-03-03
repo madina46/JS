@@ -1,0 +1,13 @@
+
+let arr = [25,35,36,89,98,108];
+function myArrayMin(arr) {
+  return Math.min.apply(null, arr);
+}
+
+let result = myArrayMin(arr);
+console.log(result);
+
+for(let num of arr) {
+    console.log(num);
+}
+

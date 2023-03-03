@@ -1,13 +1,21 @@
 let nums = [20,33,44,55,67,88];
 
-nums.filter( n=> n%2 === 0)
+nums.filter( n=> n%2 === 0)//The filter() method creates a new array with array elements that pass a test.
+
+//The map() method creates a new array by performing a function on each array element.
+
+
 .map( n=> n*2 )
 
 .forEach(n => {
-    // console.log(n);
+    console.log(n);
 })
 
 // console.log(result);
+
+//The reduce() method runs a function on each array element to produce (reduce it to) a single value.
+
+// The reduce() method works from left-to-right in the array. See also reduceRight().
 
 
 

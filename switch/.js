@@ -1,4 +1,4 @@
-let day = "tuesday" ;
+let day = "" ;
 
 switch(day){
     case ('monday') :
@@ -13,5 +13,6 @@ switch(day){
     case ('thursday') :
     console.log("10am");
     break;
-    
+    default:// default function to add
+    console.log("No day is selected");
 }
